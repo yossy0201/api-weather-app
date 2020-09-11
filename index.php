@@ -23,7 +23,7 @@
         background-size: cover;
         }
         body {
-            background: none;
+          background: none;
         }
         .container { 
           text-align: center;
@@ -55,8 +55,8 @@
 </form>
   <div id="weather"><?php 
       if ($weather) {
-          echo '<div class="alert alert-success"
-          role="alert">'.$weather.'
+        echo '<div class="alert alert-success"
+        role="alert">'.$weather.'
   </div>';
       } else if ($error) {
         echo '<div class="alert alert-danger" role="alert">
